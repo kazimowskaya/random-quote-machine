@@ -1,0 +1,38 @@
+#quote-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  #text {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  #author {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  #new-quote,
+  #tweet-quote {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  #new-quote {
+    margin-right: 1rem;
+  }
+  
+  #tweet-quote {
+    background-color: #1da1f2;
+  }
+  
